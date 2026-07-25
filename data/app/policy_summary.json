@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "project": "Customer Decisioning Lab",
+    "result_type": "simulation",
+    "experiment_id": "nba_portfolio_2026_01",
+    "model_version": "causal_1.0.0",
+    "policy_version": "policy_1.0.0",
+    "warning": "Synthetic portfolio simulation"
+  },
+  "control": {
+    "customers": 1774,
+    "average_net_value": 12.085682074408117,
+    "conversion_rate": 0.07553551296505073,
+    "optout_rate": 0.023111612175873732
+  },
+  "challenger": {
+    "customers": 3215,
+    "average_net_value": 22.10108864696734,
+    "conversion_rate": 0.16018662519440124,
+    "optout_rate": 0.02270606531881804
+  },
+  "champion": {
+    "customers": 12758,
+    "average_net_value": 22.226446151434395,
+    "conversion_rate": 0.16381878037309924,
+    "optout_rate": 0.01951716569995297
+  },
+  "constraints": {
+    "consent_required": true,
+    "max_contacts_30d": 2,
+    "fixed_control_share": 0.1,
+    "human_approval_required": true
+  }
+}
